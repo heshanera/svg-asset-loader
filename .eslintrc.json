@@ -21,6 +21,9 @@
         "@typescript-eslint",
         "prettier"
     ],
+    "ignorePatterns": [
+        "examples/*/src/index.js"
+    ],
     "rules": {
         "prettier/prettier": [
             "error",
