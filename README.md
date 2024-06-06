@@ -1,5 +1,5 @@
 # svg-asset-loader
-Webpack loader for processing SVG files, offering three flexible options: embedding SVGs directly into the HTML, combining SVGs into a single spritesheet injected into the HTML, or extracting SVGs into an external sprite file for linking.
+Webpack loader for processing SVG files. Loader options allows 3 options: embedding SVGs directly into the HTML, combining SVGs into a single spritesheet injected into the HTML, or extracting SVGs into an external sprite file for linking.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://github.com/heshanera/svg-asset-loader/blob/master/LICENSE)&nbsp;
 
