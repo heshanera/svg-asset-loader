@@ -125,6 +125,6 @@ import icon2 from '../../assets/coconut-tree.svg';
 
 | Property   | Default | Description |
 | ---------- | ------------ | -------- |
-| strategy   | `inject`     | SVG loading strategy. Available strategies - `inject`, `extract`, `inline`  |
-| outFile    | `sprite.svg` | File name for the generated svg spritesheet when using the `extract` strategy    |
-| prefix     | `sprite.svg` | File path that is used to access the spritesheet generated from the `extract` strategy     |
+| strategy   | `inject`     | SVG loading strategy <br /> Available strategies: `inject`, `extract`, `inline`  |
+| outFile    | `sprite.svg` | File name for the generated svg spritesheet <br /> To be used with the `extract` strategy    |
+| prefix     | `sprite.svg` | File path to access the generated spritesheet <br /> To be used with the `extract` strategy <br />  href: `{prefix}#{id}`   |
