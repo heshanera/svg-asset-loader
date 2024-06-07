@@ -9,7 +9,7 @@
         "eslint:recommended",
         "plugin:prettier/recommended",
         "plugin:@typescript-eslint/recommended",
-        "airbnb",
+        "airbnb-base",
         "prettier"
     ],
     "parser": "@typescript-eslint/parser",
@@ -22,6 +22,8 @@
         "prettier"
     ],
     "ignorePatterns": [
+        "node_modules",
+        "dist",
         "examples/*/src/index.js"
     ],
     "rules": {
