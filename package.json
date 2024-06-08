@@ -9,6 +9,7 @@
     "lint:fix": "eslint --fix --ext .ts .",
     "semantic-release": "semantic-release --branches master"
   },
+  "main": "./dist/index.js",
   "files": [
     "LICENSE",
     "README.md",
