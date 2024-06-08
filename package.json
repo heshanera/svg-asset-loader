@@ -9,6 +9,11 @@
     "lint:fix": "eslint --fix --ext .ts .",
     "semantic-release": "semantic-release --branches master"
   },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist/"
+  ],
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^13.0.0",
