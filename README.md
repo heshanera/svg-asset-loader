@@ -1,8 +1,15 @@
 # svg-asset-loader
 Webpack loader for processing SVG files. Loader options allows 3 options: embedding SVGs directly into the HTML, combining SVGs into a single spritesheet injected into the HTML, or extracting SVGs into an external sprite file for linking.
 
+![Test Build Publish](https://github.com/heshanera/svg-asset-loader/actions/workflows/publish.yml/badge.svg)&nbsp;
 [![Node](https://img.shields.io/badge/Node-v20.10.0-%233C873A)](https://nodejs.org/dist/v20.14.0/docs/api/)&nbsp;
+[![NPM](https://img.shields.io/badge/NPM-v8.19.3-%23CC3534)](https://www.npmjs.com/package/svg-asset-loader?activeTab=readme)&nbsp;
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://github.com/heshanera/svg-asset-loader/blob/master/LICENSE)&nbsp;
+
+## Installation
+```bash
+npm i svg-asset-loader
+```
 
 ## Usage
 
@@ -17,7 +24,7 @@ const config = {
     rules: [
       {
         test: /\.svg$/,
-        loader: path.resolve('../../dist/index.js'),
+        loader: 'svg-asset-loader',
       },
     ],
   },
@@ -54,7 +61,7 @@ const config = {
     rules: [
       {
         test: /\.svg$/,
-        loader: path.resolve('../../dist/index.js'),
+        loader: 'svg-asset-loader',
         options: {
           strategy: 'inline',
         },
@@ -91,7 +98,7 @@ const config = {
     rules: [
       {
         test: /\.svg$/,
-        loader: path.resolve('../../dist/index.js'),
+        loader: 'svg-asset-loader',
         options: {
           strategy: 'extract',
           outFile: './public/spritesheet.svg',
@@ -129,3 +136,16 @@ import icon2 from '../../assets/coconut-tree.svg';
 | strategy   | `inject`     | SVG loading strategy <br /> Available strategies: `inject`, `extract`, `inline`  |
 | outFile    | `sprite.svg` | File name for the generated svg spritesheet <br /> To be used with the `extract` strategy    |
 | prefix     | `sprite.svg` | File path to access the generated spritesheet <br /> To be used with the `extract` strategy <br />  href: `{prefix}#{id}`   |
+
+## Running Examples Locally
+
+```bash
+# Build the loader
+npm run build
+
+# Go to the example directory
+cd examples/inlineSVGs/
+
+# Start the server
+npm run start
+```

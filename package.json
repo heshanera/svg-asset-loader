@@ -44,5 +44,18 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/heshanera/svg-asset-loader.git"
-  }
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "svg",
+    "inline",
+    "sprites",
+    "spritesheet",
+    "injection",
+    "svg symbol",
+    "bundling",
+    "svg preprocessing",
+    "sprite extraction"
+  ]
 }
