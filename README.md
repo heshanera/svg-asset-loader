@@ -3,9 +3,9 @@ Webpack loader for processing SVG files. Loader options allows 3 options: embedd
 
 [![Test Build Publish](https://github.com/heshanera/svg-asset-loader/actions/workflows/publish.yml/badge.svg)](https://github.com/heshanera/svg-asset-loader/actions)&nbsp;
 [![Node](https://img.shields.io/badge/Node-v20.10.0-%233C873A)](https://nodejs.org/dist/v20.14.0/docs/api/)&nbsp;
-[![NPM](https://img.shields.io/badge/NPM-v8.19.3-%23CC3534)](https://www.npmjs.com/package/svg-asset-loader?activeTab=readme)&nbsp;
+[![NPM](https://img.shields.io/badge/NPM-v10.2.3-%23CC3534)](https://www.npmjs.com/package/svg-asset-loader?activeTab=readme)&nbsp;
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://github.com/heshanera/svg-asset-loader/blob/master/LICENSE)&nbsp;
-[![Minzip](https://badgen.net/bundlephobia/min/svg-asset-loader)](https://bundlephobia.com/package/svg-asset-loader)&nbsp;
+[![Minzip](https://badgen.net/bundlephobia/minzip/svg-asset-loader)](https://bundlephobia.com/package/svg-asset-loader)&nbsp;
 
 ## Installation
 ```bash
