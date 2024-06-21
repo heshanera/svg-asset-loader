@@ -2,10 +2,10 @@
 Webpack loader for processing SVG files. Loader options allows 3 options: embedding SVGs directly into the HTML, combining SVGs into a single spritesheet injected into the HTML, or extracting SVGs into an external sprite file for linking.
 
 [![Test Build Publish](https://github.com/heshanera/svg-asset-loader/actions/workflows/publish.yml/badge.svg)](https://github.com/heshanera/svg-asset-loader/actions)&nbsp;
-[![Node](https://img.shields.io/badge/Node-v20.10.0-%233C873A)](https://nodejs.org/dist/v20.14.0/docs/api/)&nbsp;
+[![Node](https://img.shields.io/badge/NodeJS-v20.10.0-%233C873A)](https://nodejs.org/dist/v20.14.0/docs/api/)&nbsp;
 [![NPM](https://img.shields.io/badge/NPM-v10.2.3-%23CC3534)](https://www.npmjs.com/package/svg-asset-loader?activeTab=readme)&nbsp;
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://github.com/heshanera/svg-asset-loader/blob/master/LICENSE)&nbsp;
-[![Minzip](https://badgen.net/bundlephobia/minzip/svg-asset-loader)](https://bundlephobia.com/package/svg-asset-loader)&nbsp;
+[![Minzip](https://img.shields.io/bundlephobia/minzip/svg-asset-loader)](https://bundlephobia.com/package/svg-asset-loader)&nbsp;
 
 ## Installation
 ```bash
@@ -17,7 +17,6 @@ npm i svg-asset-loader
 ### Spritesheet injection [:link:](https://github.com/heshanera/svg-asset-loader/tree/master/examples/injectSVGs)
 ```js
 // webpack.config.js
-import path from 'path';
 
 const config = {
   ...
@@ -36,6 +35,7 @@ export default config;
 ```
 ```js
 // index.js
+
 import icon from '../../assets/stop-watch.svg';
 import icon2 from '../../assets/coconut-tree.svg';
 
@@ -54,7 +54,6 @@ import icon2 from '../../assets/coconut-tree.svg';
 ### Inline [:link:](https://github.com/heshanera/svg-asset-loader/tree/master/examples/inlineSVGs)
 ```js
 // webpack.config.js
-import path from 'path';
 
 const config = {
   ...
@@ -76,6 +75,7 @@ export default config;
 ```
 ```js
 // index.js
+
 import icon from '../../assets/stop-watch.svg';
 import icon2 from '../../assets/coconut-tree.svg';
 
@@ -91,7 +91,6 @@ import icon2 from '../../assets/coconut-tree.svg';
 ### Extraction and linking [:link:](https://github.com/heshanera/svg-asset-loader/tree/master/examples/extractSVGs)
 ```js
 // webpack.config.js
-import path from 'path';
 
 const config = {
   ...
@@ -115,6 +114,7 @@ export default config;
 ```
 ```js
 // index.js
+
 import icon from '../../assets/stop-watch.svg';
 import icon2 from '../../assets/coconut-tree.svg';
 
