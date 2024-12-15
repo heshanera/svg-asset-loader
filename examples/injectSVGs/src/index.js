@@ -1,15 +1,23 @@
-import icon from '../../assets/stop-watch.svg';
-import icon2 from '../../assets/coconut-tree.svg';
+import watch from '../../assets/stop-watch.svg';
+import tree from '../../assets/coconut-tree.svg';
+import coding from '../../assets/coding.svg';
+import settings from '../../assets/settings.svg';
 
 document.addEventListener('DOMContentLoaded', () => {
   const rootElement = document.getElementById('root');
   if (rootElement) {
     rootElement.innerHTML = `
-      <svg viewBox="${icon.viewBox}">
-        <use href="#${icon.id}"></use>
+      <svg viewBox="${watch.viewBox}">
+        <use href="#${watch.id}"></use>
       </svg>
-      <svg viewBox="${icon2.viewBox}">
-        <use href="#${icon2.id}"></use>
+      <svg viewBox="${tree.viewBox}">
+        <use href="#${tree.id}"></use>
+      </svg>
+      <svg viewBox="${coding.viewBox}">
+        <use href="#${coding.id}"></use>
+      </svg>
+      <svg viewBox="${settings.viewBox}">
+        <use href="#${settings.id}"></use>
       </svg>
     `;
   }
