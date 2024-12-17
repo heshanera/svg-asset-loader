@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/heshanera/svg-asset-loader/compare/v1.1.4...v1.2.0) (2024-12-17)
+
+
+### Features
+
+* set unique symbol ids ([b439987](https://github.com/heshanera/svg-asset-loader/commit/b4399871b9e960f6036dd741c516856af149f0c9))
+
 ## [1.1.4](https://github.com/heshanera/svg-asset-loader/compare/v1.1.3...v1.1.4) (2024-08-26)
 
 
